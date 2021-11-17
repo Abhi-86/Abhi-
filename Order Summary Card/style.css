@@ -18,21 +18,15 @@ body{
     background-repeat: no-repeat;
 }
 
-.card-contents p{
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: hsl(224, 23%, 55%);
-    margin-bottom: 1rem;
-}
 
 /* ############## Card styling ############## */
 
 .container{
     /* border: 2px solid red; */
-    max-width: 350px;
+    max-width: 450px;
     width: 90%;
-    height: 540px;
-    margin: 7rem auto;
+    height: 670px;
+    margin: 10rem auto;
     background: #fff;
     border-radius: 20px;
     box-shadow: 0px 0px 20px 0px hsla(245, 75%, 52%, 0.336);
@@ -50,17 +44,27 @@ body{
     text-align: center;
 }
 
+.card-contents p{
+    width: 350px;
+    /* height: 80px; */
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+}
+
 .card-contents .main-heading{
     margin:3rem 0rem 1.5rem 0rem;
     font-weight: 900;
-    font-size: 2.4rem;
+    font-size: 3rem;
     color: hsl(223, 47%, 23%);
 
 }
 
 .card-plan{
-    width: 300px;
-    height: 70px;
+    width: 350px;
+    height: 90px;
   /* border: 2px solid green; */
     border-radius: 10px;
     margin: 2rem auto 0;
@@ -79,17 +83,21 @@ body{
 .card-plan p{
     font-size: 1.6rem;
     font-weight: 700;
-    margin-left: -3rem;
+    margin-left: -4rem;
     color: hsl(223, 47%, 23%);
   
 }
 .card-plan p span{
     color: hsl(224, 23%, 55%);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .card-plan a{
-   font-size: 1.5rem;
+   font-size: 1.6rem;
+}
+.card-plan a:hover{
+    text-decoration: none;
+    color: hsl(245, 66%, 63%) ;
 }
 
 .card-buttons{
@@ -102,14 +110,16 @@ body{
     text-decoration: none;
     font-size: 1.6rem;
     font-weight: 700;
-    margin-top: 2.4rem;
+    margin-top: 3rem;
     color: hsl(224, 23%, 55%);
 
 }
+.card-buttons a:hover{
+    color: hsl(223, 47%, 23%);
+}
 
 .card-buttons .btn{
-    border: 1px solid blue;
-    padding: 1rem 7rem;
+    padding: 1.8rem 10rem;
     border-radius: 10px;
     background: hsl(245, 75%, 52%);
     color: #fff;
@@ -117,10 +127,14 @@ body{
     cursor: pointer;
 }
 
+.card-buttons .btn:hover{
+    background: hsl(245, 66%, 63%) ;
+}
+
 .attribution {
     font-size: 1.6rem; 
     text-align: center;
-    margin: -5rem 0;
+    margin: -6rem 0;
  }
  
 .attribution a {
